@@ -195,6 +195,7 @@ i {
 @media screen and (max-width: 768px) {
   .about-content {
     flex-direction: column;
+    padding: 32px;
   }
 }
 .services {
@@ -288,6 +289,12 @@ i {
   gap: 16px;
 }
 
+@media screen and (max-width: 768px) {
+  .footer p {
+    font-size: 14px;
+    text-align: center;
+  }
+}
 .btn-whats {
   position: fixed;
   bottom: 14px;
